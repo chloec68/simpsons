@@ -105,12 +105,34 @@ main p{
     padding:10px;
 }
 
-/* ******************************************************MEDIA******************************************************************************* */
+/* ******************************************************MEDIA-MOBILE******************************************************************************* */
 
 @media screen and (max-width: 640px){
+
+/*GENERAL*/
+
     #wrapper{
         width:100%;}
-    
+
+    body{
+        background-color: white;
+        }
+/*MAIN*/
+    main{
+        display:inline;
+        padding:1px;
+}
+
+    article h1{
+        text-align: center;
+        font-size: 30px;
+}
+
+article p{
+    font-size:18px;
+    padding:20px;
+}
+/*SIDES*/
     nav{
         display:flex;
         flex-wrap:wrap;
@@ -125,12 +147,7 @@ main p{
     nav a{
         font-size:16px;
         padding:10px;
-        line-height: 30px;
-      
-    }
-
-    body{
-        background-color: white;
+        line-height: 30px; 
     }
 
     aside p{
@@ -138,32 +155,18 @@ main p{
         font-size:16px;
     }
 
-   article p{
-        font-size:18px;
-        padding:20px;
-    }
-
-    main{
-        display:inline;
-        padding:1px;
-    }
-
-    article h1{
-        text-align: center;
-        font-size: 30px;
-    }
-
     #author{
         max-width:200px;
     }
 
-}
+}/* ******************************************************MEDIA-TABLET******************************************************************************* */
 
 @media screen and (min-width: 700px) and (max-width: 1080px) {
+
+/*GENERAL*/
+    
     #wrapper{
-        width:95%;
-        
-       
+        width:100%;
     }
 
     main{
@@ -171,13 +174,21 @@ main p{
         padding-left:5px;
         padding-right:5px;  
     }
+/*MAIN*/
 
-    aside p{
-        font-size:18px;
-    }
+    h1{
+        font-size:30px;
+        text-align: center;
+}
 
     article p{
         font-size:20px;
+}
+
+/*SIDES*/
+
+    aside p{
+        font-size:18px;
     }
 
     h3{
@@ -188,11 +199,6 @@ main p{
         max-width: 300px;
     }
     
-    h1{
-        font-size:30px;
-        text-align: center;
-    }
-
     nav a{
         font-size:18px;
         line-height: 30px;
