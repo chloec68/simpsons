@@ -1,0 +1,180 @@
+/* ******************************************************GENERAL******************************************************************************* */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width:70%;
+    margin:auto;
+}
+
+
+body{
+    background-color:#FECE0F;
+}
+/* ************************************************************************************************************************************************ */
+header{
+    background-color:#398FD1;
+}
+
+footer{
+    background-color:#08497B;
+    text-align: center;
+}
+
+small{
+    color:white;
+}
+main{
+    background-color: white;
+    display : flex;
+    padding:20px;
+    
+}
+
+nav{
+    background-color:#398FD1;
+    padding:20px;
+    width:20%;
+    text-align: center;
+    height: fit-content;
+   
+}
+
+a{
+    color:white;
+    font-size:11px;
+}
+
+aside{
+    background-color:#398FD1;
+    text-align:justify;
+    padding:10px;
+    height: auto;   
+}
+
+aside p{
+    color:white;
+
+    font-size:11px;
+}
+
+h1{
+    color:#FECE0F;
+    padding:10px;
+}
+
+h2{
+    color:white;
+    text-align:center;
+}
+
+h3{
+    text-align: center;
+    color : white;
+}
+
+article{
+    padding-top: 1em;
+
+}
+
+#author{
+    border : 1px white solid;
+    width:75%;
+    display:block;
+    margin:auto;
+}
+
+#simpsonsFamilyImage{
+    
+  
+    width:100%;
+    vertical-align: top;
+    
+    
+}
+
+h2,a,h1,p,h3,small{
+    font-family: "Fredoka", sans-serif;
+}
+
+main p{
+    text-align: justify;
+    padding:10px;
+}
+
+
+@media screen and (max-width: 640px){
+    #wrapper{
+        width:100%;}
+    
+    nav{
+        display:flex;
+        width:80%;
+        margin:auto;
+        word-wrap: break-word;
+        padding-top: 10px;
+
+        border-radius:10px;
+    }
+
+    nav a{
+        font-size:16px;
+        padding:10px;
+        line-height: 30px;
+    }
+
+    body{
+        background-color: white;
+    }
+
+    aside p{
+        padding:3px;
+        font-size:12px;
+    }
+
+    main p{
+        font-size:18px;
+    }
+
+    main{
+        display:inline;
+        padding:1px;
+    }
+
+    article h1{
+        text-align: center;
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 1400px) {
+    #wrapper{
+        width:90%;}
+    
+    main{
+        display:grid;
+    }
+
+    aside p{
+        font-size:20px;
+    }
+
+    h3{
+        font-size:25px;
+    }
+
+    #author{
+        max-width: 300px;
+    }
+
+    article {
+
+    }
+    
+    
+}
