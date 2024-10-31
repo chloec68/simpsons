@@ -15,10 +15,46 @@ body{
     background-color:#FECE0F;
 }
 /* ************************************************************************************************************************************************ */
+
+/*TOP*/
 header{
     background-color:#398FD1;
 }
 
+h2{
+    color:white;
+    text-align:center;
+}
+
+#simpsonsFamilyImage{
+    width:100%;
+    vertical-align: top; 
+}
+
+/*MAIN*/
+h1{
+    color:#FECE0F;
+    padding:10px;
+}
+
+article{
+    padding-top: 1em;
+
+}
+
+main p{
+    text-align: justify;
+    padding:10px;
+}
+
+main{
+    background-color: white;
+    display : flex;
+    padding:20px;
+    
+}
+
+/*BOTTOM*/
 footer{
     background-color:#08497B;
     text-align: center;
@@ -27,27 +63,8 @@ footer{
 small{
     color:white;
 }
-main{
-    background-color: white;
-    display : flex;
-    padding:20px;
-    
-}
 
-nav{
-    background-color:#398FD1;
-    padding:20px;
-    width:20%;
-    text-align: center;
-    height: fit-content;
-   
-}
-
-a{
-    color:white;
-    font-size:11px;
-}
-
+/*SIDES*/
 aside{
     background-color:#398FD1;
     text-align:justify;
@@ -60,24 +77,9 @@ aside p{
     font-size:11px;
 }
 
-h1{
-    color:#FECE0F;
-    padding:10px;
-}
-
-h2{
-    color:white;
-    text-align:center;
-}
-
 h3{
     text-align: center;
     color : white;
-}
-
-article{
-    padding-top: 1em;
-
 }
 
 #author{
@@ -87,23 +89,24 @@ article{
     margin:auto;
 }
 
-#simpsonsFamilyImage{
-    
-  
-    width:100%;
-    vertical-align: top;
-    
-    
+nav{
+    background-color:#398FD1;
+    padding:20px;
+    width:20%;
+    text-align: center;
+    height: fit-content;
+}
+
+a{
+    color:white;
+    font-size:11px;
 }
 
 h2,a,h1,p,h3,small{
     font-family: "Fredoka", sans-serif;
 }
 
-main p{
-    text-align: justify;
-    padding:10px;
-}
+
 
 /* ******************************************************MEDIA-MOBILE******************************************************************************* */
 
